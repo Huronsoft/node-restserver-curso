@@ -2,6 +2,9 @@
     "name": "07-restserver",
     "version": "1.0.0",
     "description": "",
+    "engines": {
+        "node": "14.2.0"
+    },
     "main": "index.js",
     "scripts": {
         "start": "node server/server.js",
@@ -10,7 +13,23 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "bcrypt": "^4.0.1",
         "body-parser": "^1.19.0",
-        "express": "^4.17.1"
-    }
+        "express": "^4.17.1",
+        "mongoose": "^5.9.15",
+        "mongoose-unique-validator": "^2.0.3",
+        "nodemon": "^2.0.4",
+        "to": "^0.2.9",
+        "underscore": "^1.10.2",
+        "update": "^0.7.4"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Huronsoft/node-restserver-curso.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Huronsoft/node-restserver-curso/issues"
+    },
+    "homepage": "https://github.com/Huronsoft/node-restserver-curso#readme"
 }

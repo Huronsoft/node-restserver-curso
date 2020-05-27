@@ -16,6 +16,7 @@
         "bcrypt": "^4.0.1",
         "body-parser": "^1.19.0",
         "express": "^4.17.1",
+        "express-fileupload": "^1.1.7-alpha.3",
         "google-auth-library": "^6.0.0",
         "jsonwebtoken": "^8.5.1",
         "mongoose": "^5.9.15",
@@ -23,6 +24,7 @@
         "mongoose-update-if-current": "^1.4.0",
         "nodemon": "^2.0.4",
         "save": "^2.4.0",
+        "set-value ": " > = 2.0.1 ",
         "to": "^0.2.9",
         "underscore": "^1.10.2",
         "update": "^0.7.4"
